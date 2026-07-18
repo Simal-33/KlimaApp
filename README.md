@@ -9,6 +9,7 @@ Angebote, Rechnungen, Kalender, Lagerverwaltung und Excel/PDF-Funktionen.
 - Kundenverwaltung mit Suche, Standortdaten und Geraetezuordnung
 - Geraete- und Materialverwaltung mit Mindestbestand
 - Angebots- und Rechnungserstellung inklusive Positionen, Rabatt, MwSt. und PDF-Ausgabe
+- Auftragsverwaltung mit Kunde, optionalem Angebot, Status, Termin und Monteur
 - Kalender fuer Termine, Wartungen, Erinnerungen und Urlaub
 - Monteurverwaltung mit Kontakt- und Stundensatzdaten
 - Lagerverwaltung mit Wareneingang, Warenausgang, Inventur und Bestellliste
@@ -19,8 +20,7 @@ Angebote, Rechnungen, Kalender, Lagerverwaltung und Excel/PDF-Funktionen.
 
 Einige Module sind bewusst als naechste Ausbaustufen vorgesehen:
 
-- Auftragsmodul mit Montage-Workflow
-- Fotodokumentation, Unterschrift und Checklisten
+- Fotodokumentation, Unterschrift und Checklisten im Auftragsworkflow
 - Barcode-/QR-Scanner
 - Firmenlogo-Upload und individuelle PDF-Vorlagen
 - Echte Authentifizierung statt Mock-Login

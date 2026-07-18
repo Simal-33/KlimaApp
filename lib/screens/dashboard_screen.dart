@@ -3,6 +3,7 @@ import '../models/app_user.dart';
 import '../theme/app_theme.dart';
 import '../widgets/coming_soon_screen.dart';
 import 'angebote_list_screen.dart';
+import 'auftraege_list_screen.dart';
 import 'einstellungen_screen.dart';
 import 'excel_screen.dart';
 import 'geraete_list_screen.dart';
@@ -61,7 +62,6 @@ class DashboardScreen extends StatelessWidget {
       'Montage und Service im Blick',
       Icons.assignment_outlined,
       Color(0xFF7C3AED),
-      isReady: false,
     ),
     _DashboardItem(
       'Kunden',
@@ -107,6 +107,7 @@ class DashboardScreen extends StatelessWidget {
       'Kunden' => const KundenListScreen(),
       'Geräte' => const GeraeteListScreen(),
       'Material' => const MaterialListScreen(),
+      'Aufträge' => const AuftraegeListScreen(),
       'Angebote' => const AngeboteListScreen(),
       'Rechnungen' => const RechnungenListScreen(),
       'Kalender' => const KalenderScreen(),
@@ -437,6 +438,12 @@ class _AppDrawer extends StatelessWidget {
     _DashboardItem('Geräte', 'Anlagen', Icons.ac_unit, AppTheme.primary),
     _DashboardItem('Material', 'Artikel', Icons.category_outlined, AppTheme.primary),
     _DashboardItem(
+      'Aufträge',
+      'Einsätze',
+      Icons.assignment_outlined,
+      AppTheme.primary,
+    ),
+    _DashboardItem(
       'Lagerverwaltung',
       'Bestand',
       Icons.warehouse_outlined,
@@ -562,6 +569,7 @@ class _AppDrawer extends StatelessWidget {
                         'Kunden' => const KundenListScreen(),
                         'Geräte' => const GeraeteListScreen(),
                         'Material' => const MaterialListScreen(),
+                        'Aufträge' => const AuftraegeListScreen(),
                         'Angebote' => const AngeboteListScreen(),
                         'Rechnungen' => const RechnungenListScreen(),
                         'Kalender' => const KalenderScreen(),
