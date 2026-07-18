@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../data/kunden_repository.dart';
 import '../models/kunde.dart';
-import '../theme/app_theme.dart';
 
 class KundeFormScreen extends StatefulWidget {
   final Kunde? kunde; // null = neuer Kunde, sonst Bearbeiten
