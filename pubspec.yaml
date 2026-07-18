@@ -1,0 +1,43 @@
+name: klima_app
+description: Verwaltungs- und Montage-App für Klimaanlagenbetriebe
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.3.0            # lokale SQL-Datenbank
+  sqflite_common_ffi_web: ^1.1.0  # SQLite im Browser (Web-Ziel)
+  path: ^1.9.0                # Pfad zur DB-Datei auf dem Gerät
+  pdf: ^3.10.7                # PDF-Erzeugung (Angebote/Rechnungen)
+  printing: ^5.12.0           # PDF-Vorschau, Drucken & Teilen (Mail, Dateien, …)
+  table_calendar: ^3.0.9      # Kalenderansicht (Montagetermine, Wartungen, Urlaub)
+  excel: ^4.0.2               # Excel Import/Export
+  file_picker: ^6.1.1         # Datei-Auswahl für Excel-Import
+  path_provider: ^2.1.1       # Speicherort für exportierte Dateien
+  share_plus: ^7.2.1          # Excel-Export teilen/speichern
+
+  # Später für weitere Module nützlich:
+  # firebase_core: ^2.24.0   # Firebase (optional statt SQL)
+  # cloud_firestore: ^4.13.0
+  # provider: ^6.1.1         # State-Management
+  # intl: ^0.19.0            # Datum/Währung formatieren
+  # image_picker: ^1.0.7      # Fotodokumentation (folgt mit Auftrags-Modul)
+  # mobile_scanner: ^3.5.6    # QR-/Barcode-Scanner (folgt in der Lagerverwaltung)
+  # geolocator: ^10.1.0       # GPS für Fahrten
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/logo.png
